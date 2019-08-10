@@ -15,7 +15,7 @@ namespace Microsoft.Practices.EnterpriseLibrary.Configuration.Design.ViewModel
 {
     /// <summary>
     /// An initialization context used for those elements and properties during explicit initialization calls <see cref="ElementViewModel.Initialize"/>
-    /// and <see cref="Property.Initialize"/>.
+    /// and <see />.
    /// </summary>
     public class InitializeContext
     {

@@ -2,4 +2,18 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/Source/Blocks/bin/Debug
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+packages/
+.vs/
+Properties/

@@ -10,7 +10,8 @@
     <RootNamespace>Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.Tests</RootNamespace>
     <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.Tests</AssemblyName>
     <WarningLevel>4</WarningLevel>
-    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids><FileUpgradeFlags>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
@@ -65,7 +66,7 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\..\packages\System.Data.SqlServerCe_unofficial.4.0.8482.1\lib\net20\System.Data.SqlServerCe.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
